@@ -1,17 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 
-import Color from './clase3/Color';
+import LoginHooks from './clase4/LoginHooks';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Color />
+        <LoginHooks></LoginHooks>
       </header>
     </div>
   );
-}
+};
 
 export default App;
